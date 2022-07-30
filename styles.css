@@ -1,0 +1,144 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+/* hero-section */
+
+#hero {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#hero h1 {
+    margin: 119px 0 11px 0;
+    padding: 5px 12px;
+    background-color: #1D3557;
+    border-radius: 10px;
+    font-size: 32px;
+    line-height: 37px; 
+}
+
+#hero h2 {
+    max-width: 412px;
+    margin: 0 0 119px 0;
+    padding: 8px 29px;
+    background-color: #457B9D;
+    border-radius: 10px;
+    font-size: 19px;
+    line-height: 22px;
+}
+
+/* activity-section */
+
+#activity {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-bottom: 58px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F1FAEE;
+    color: #1D3557;
+}
+
+#activity h3 {
+    margin: 20px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.round-img {
+    border-radius: 50%;
+}
+
+.activity-box h4, .activity-box p {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.activity-box h4 {
+    font-weight: 700; 
+}
+
+.activity-box p {
+    font-weight: 400;
+}
+
+.activity-box {
+    width: 198px;
+}
+
+.activity-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* guide-section */
+
+#guide {
+    max-width: 400px;
+    padding: 23px 13px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    color: #1D3557;
+}
+
+#guide img {
+    width: 180px;
+    margin-right: 3.5px;
+}
+
+.guide-text {
+    margin-left: 3.5px;
+}
+
+.guide-text h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.guide-text p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.guide-text h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+}
